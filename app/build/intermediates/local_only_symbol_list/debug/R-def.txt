@@ -1,0 +1,10 @@
+R_DEF: Internal format may change without notice
+local
+id btnStart
+id btnStop
+id tvX
+id tvY
+id tvZ
+layout activity_main
+layout activity_sensor
+string app_name

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="32dp"
+    android:background="#FAFAFA">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Transmitiendo Datos..."
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="32dp"/>
+
+    <TextView
+        android:id="@+id/tvX"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="X: 0.0"
+        android:textSize="20sp"
+        android:textColor="#F44336"
+        android:layout_marginBottom="8dp"/>
+
+    <TextView
+        android:id="@+id/tvY"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Y: 0.0"
+        android:textSize="20sp"
+        android:textColor="#4CAF50"
+        android:layout_marginBottom="8dp"/>
+
+    <TextView
+        android:id="@+id/tvZ"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Z: 0.0"
+        android:textSize="20sp"
+        android:textColor="#2196F3"
+        android:layout_marginBottom="48dp"/>
+
+    <Button
+        android:id="@+id/btnStop"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:text="Stop"
+        android:textSize="20sp"
+        android:backgroundTint="#F44336"/>
+
+</LinearLayout>

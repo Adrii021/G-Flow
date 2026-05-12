@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "com.gflow.app-mergeDebugResources-30:/layout/activity_main.xml",
+        "source": "com.gflow.app-main-33:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.gflow.app-mergeDebugResources-30:/layout/activity_sensor.xml",
+        "source": "com.gflow.app-main-33:/layout/activity_sensor.xml"
+    }
+]
